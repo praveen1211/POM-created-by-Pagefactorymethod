@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18711" started-at="2018-03-15T13:31:15Z" finished-at="2018-03-15T13:31:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18711" started-at="2018-03-15T13:31:15Z" finished-at="2018-03-15T13:31:34Z">
+      <class name="sample1.Coding3">
+        <test-method status="PASS" signature="loginchecker()[pri:0, instance:sample1.Coding3@4f7d0008]" name="loginchecker" duration-ms="18689" started-at="2018-03-15T19:01:15Z" finished-at="2018-03-15T19:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginchecker -->
+      </class> <!-- sample1.Coding3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
