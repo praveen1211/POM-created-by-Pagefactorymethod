@@ -26,7 +26,6 @@ public class Coding3
 		a1.Admin();
 		
 		
-		
 	}
 	
 }

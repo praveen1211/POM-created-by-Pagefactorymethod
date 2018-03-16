@@ -36,9 +36,14 @@ public class Coding2
 		
 			
 	username.sendKeys(username1);
-	password.sendKeys(password1);
-	submit.click();
+	ElementHighlighting.ElementHighlighting(driver, username);
 	Screenshot.Screenshot(driver, "Submited");
+	
+	password.sendKeys(password1);
+	
+	submit.click();
+	Screenshot.Screenshot(driver, "Submited1");
+	
 	Admin.click();
 		
 }
