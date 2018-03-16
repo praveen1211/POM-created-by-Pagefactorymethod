@@ -44,10 +44,11 @@ public class Amin
 	{
 		
 		Add.click();
-		Screenshot.Screenshot(driver, "Submited3");
+		Screenshot.Screenshot(driver, "Submited2");
+		
 		Thread.sleep(2000);
 		Userrole.click();
-		Screenshot.Screenshot(driver, "Submited1");
+		
 		Employeename.sendKeys("Praveen");
 		username23.sendKeys("Praveen");
 		status.click();
