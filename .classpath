@@ -101,5 +101,6 @@
 	<classpathentry kind="lib" path="D:/Nikhil/vsts-agent-win7-x64-2.122.1/_work/1/s/libs/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="D:/Nikhil/vsts-agent-win7-x64-2.122.1/_work/1/s/libs/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
