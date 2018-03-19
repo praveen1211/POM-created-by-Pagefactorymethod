@@ -33,7 +33,7 @@ public class Screenshot
             timeStamp = timeStamp.replace(' ', '_');
             timeStamp = timeStamp.replace(':', '_');
 			
-			FileUtils.copyFile(f, new File("./PageFactory"+name+"-"+timeStamp+".png") );
+			FileUtils.copyFile(f, new File("./PageFactory/PageFactory"+name+"-"+timeStamp+".png") );
 			
 			System.out.println("Screenshot has been taken");
 		} 

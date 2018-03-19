@@ -37,13 +37,16 @@ public  class Coding2
 			
 	username.sendKeys(username1);
 	ElementHighlighting.ElementHighlighting(driver, username);
-	DeleteOldResults.delete("Submited1");
-	//Screenshot.Screenshot(driver, "Submited");
+	
+	ScreenshotFolderDeletion.main();
+	//DeleteOldResults.delete("Submited -");
+	
+	Screenshot.Screenshot(driver, "Submited -");
 	
 	password.sendKeys(password1);
 	
 	submit.click();
-	//Screenshot.Screenshot(driver, "Submited1");
+	//Screenshot.Screenshot(driver, "Submited -");
 	
 	Admin.click();
 		

@@ -9,8 +9,19 @@ public class DeleteOldResults
 	{
 		try
 		{
-			Files.deleteIfExists(Paths.get("./PageFactory/screenshot"+name+".png"));
+			Files.deleteIfExists(Paths.get("./PageFactory/PageFactory"+name+".png"));
 			System.out.println("Old screenshots Succesfully deleted");
+			
+			//File file = new File("c:\\logfile20100131.log");
+        	
+    	//	if(file.delete()){
+    		//	System.out.println(file.getName() + " is deleted!");
+    //		}
+	//	else
+		//{
+    	//		System.out.println("Delete operation is failed.");
+    		//}
+			
 		}
 		catch(Exception e)
 		{

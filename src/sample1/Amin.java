@@ -44,7 +44,7 @@ public  class Amin
 	{
 		
 		Add.click();
-		Screenshot.Screenshot(driver, "Submited2 -");
+		//Screenshot.Screenshot(driver, "Submited -");
 		
 		Thread.sleep(2000);
 		Userrole.click();
