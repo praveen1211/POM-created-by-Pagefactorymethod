@@ -9,7 +9,7 @@ import org.openqa.selenium.support.How;
 import org.testng.annotations.Test;
 
 
-public class Coding2 
+public  class Coding2 
 {
 	WebDriver driver;
 	
@@ -37,12 +37,13 @@ public class Coding2
 			
 	username.sendKeys(username1);
 	ElementHighlighting.ElementHighlighting(driver, username);
-	Screenshot.Screenshot(driver, "Submited");
+	DeleteOldResults.delete("Submited1");
+	//Screenshot.Screenshot(driver, "Submited");
 	
 	password.sendKeys(password1);
 	
 	submit.click();
-	Screenshot.Screenshot(driver, "Submited1");
+	//Screenshot.Screenshot(driver, "Submited1");
 	
 	Admin.click();
 		

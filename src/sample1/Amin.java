@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class Amin
+public  class Amin  
 {		
 	WebDriver driver;
 	
@@ -44,7 +44,7 @@ public class Amin
 	{
 		
 		Add.click();
-		Screenshot.Screenshot(driver, "Submited2");
+		Screenshot.Screenshot(driver, "Submited2 -");
 		
 		Thread.sleep(2000);
 		Userrole.click();

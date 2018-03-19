@@ -3,6 +3,8 @@ package sample1;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.sql.Timestamp;
+import java.util.Date;
 
 import javax.imageio.ImageIO;
 
@@ -24,7 +26,14 @@ public class Screenshot
 			TakesScreenshot ts=(TakesScreenshot)driver;
 			File f = ts.getScreenshotAs(OutputType.FILE);
 			
-			FileUtils.copyFile(f, new File("./PageFactory/screenshot"+name+".png") );
+			//Date and timestamp for images 
+			Date d = new Date();
+            Timestamp t = new Timestamp(d.getTime());
+            String timeStamp = t.toString();
+            timeStamp = timeStamp.replace(' ', '_');
+            timeStamp = timeStamp.replace(':', '_');
+			
+			FileUtils.copyFile(f, new File("./PageFactory"+name+"-"+timeStamp+".png") );
 			
 			System.out.println("Screenshot has been taken");
 		} 
