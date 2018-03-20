@@ -34,11 +34,12 @@ public  class Coding2
 	public void login(String username1, String password1) throws IOException
 {
 		
-			
+	ScreenshotFolderDeletion.main();	
+	
 	username.sendKeys(username1);
 	ElementHighlighting.ElementHighlighting(driver, username);
 	
-	ScreenshotFolderDeletion.main();
+
 	//DeleteOldResults.delete("Submited -");
 	
 	Screenshot.Screenshot(driver, "Submited -");
