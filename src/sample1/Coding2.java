@@ -47,7 +47,7 @@ public  class Coding2
 	password.sendKeys(password1);
 	
 	submit.click();
-	//Screenshot.Screenshot(driver, "Submited -");
+	Screenshot.Screenshot(driver, "Submited -");
 	
 	Admin.click();
 		
