@@ -42,9 +42,9 @@ public  class Amin
 	
 	public void Admin() throws InterruptedException, IOException
 	{
-		
+		Thread.sleep(1000);
 		Add.click();
-		//Screenshot.Screenshot(driver, "Submited -");
+		Screenshot.Screenshot(driver, "Submited -");
 		
 		Thread.sleep(2000);
 		Userrole.click();
@@ -55,6 +55,7 @@ public  class Amin
 		password23.sendKeys("praveen");
 		confirmpassword.sendKeys("praveen");
 		save.click();
+		FolderZip.zipper();
 		
 		Thread.sleep(1000);
 		driver.quit();
