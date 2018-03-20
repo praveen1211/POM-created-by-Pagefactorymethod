@@ -2,33 +2,33 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16613" started-at="2018-03-19T17:22:18Z" finished-at="2018-03-19T17:22:35Z">
+  <suite name="Default suite" duration-ms="20400" started-at="2018-03-20T09:05:12Z" finished-at="2018-03-20T09:05:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16613" started-at="2018-03-19T17:22:18Z" finished-at="2018-03-19T17:22:35Z">
+    <test name="Default test" duration-ms="20400" started-at="2018-03-20T09:05:12Z" finished-at="2018-03-20T09:05:33Z">
       <class name="sample1.Coding3">
-        <test-method status="FAIL" signature="loginchecker()[pri:0, instance:sample1.Coding3@2f686d1f]" name="loginchecker" duration-ms="16613" started-at="2018-03-19T22:52:18Z" finished-at="2018-03-19T22:52:35Z">
+        <test-method status="FAIL" signature="loginchecker()[pri:0, instance:sample1.Coding3@2f686d1f]" name="loginchecker" duration-ms="20387" started-at="2018-03-20T14:35:12Z" finished-at="2018-03-20T14:35:33Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='systemUser_userType']/option[1]"}
-Command duration or timeout: 0 milliseconds
+Command duration or timeout: 17 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
 System info: host: 'MH30031711', ip: '172.17.1.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: cdb8603c-8bed-40ec-95f5-a4f078e677d6
+Session ID: 7b65327c-eb92-47b4-ae24-2581080d5c73
 *** Element info: {Using=xpath, value=.//*[@id='systemUser_userType']/option[1]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='systemUser_userType']/option[1]"}
-Command duration or timeout: 0 milliseconds
+Command duration or timeout: 17 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
 System info: host: 'MH30031711', ip: '172.17.1.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: cdb8603c-8bed-40ec-95f5-a4f078e677d6
+Session ID: 7b65327c-eb92-47b4-ae24-2581080d5c73
 *** Element info: {Using=xpath, value=.//*[@id='systemUser_userType']/option[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -75,11 +75,11 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
 System info: host: 'MH30031711', ip: '172.17.1.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous6756930705325055914webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/miracle/AppData/Local/Temp/anonymous6756930705325055914webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/miracle/AppData/Local/Temp/anonymous6756930705325055914webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous6756930705325055914webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/miracle/AppData/Local/Temp/anonymous6756930705325055914webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous4978959451553152979webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/miracle/AppData/Local/Temp/anonymous4978959451553152979webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/miracle/AppData/Local/Temp/anonymous4978959451553152979webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous4978959451553152979webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/miracle/AppData/Local/Temp/anonymous4978959451553152979webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->

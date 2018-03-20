@@ -14,18 +14,15 @@ public class ScreenshotFolderDeletion
 		File file = new File(directoryPath);
 		try
 		{
-			if(file.delete())
+			if(file.exists())
 			{
 				FileUtils.deleteDirectory(file);
-				System.out.println("Directory has been deleted!");
-				
+				System.out.println("Directory has been deleted!");	
 			}
 			else
 			{
-				System.out.println("FIle not be deleted");
+				System.out.println("Directory not found");
 			}
-			//Deleting the directory recursively using FileUtils.
-			
 		} 
 		catch (IOException e)
 		{
